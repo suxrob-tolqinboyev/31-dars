@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+  </head>
+  <body class="text-white">
+    <header>
+      <nav class="nav">
+        <div class="container">
+          <div class="nav__wrapper flex justify-between items-center py-[50px]">
+            <div class="nav__logo">
+              <img src="./assets/icons/logo.svg" alt="" />
+            </div>
+
+            <div class="nav__link flex items-center">
+              <ul class="nav__list flex gap-[25px]">
+                <li class="nav__item hover:text-[#d67e34]">
+                  <a href="#"><span>ГЛАВНАЯ</span></a>
+                </li>
+                <li class="nav__item hover:text-[#d67e34]">
+                  <a href="#"><span>МЕНЮ</span></a>
+                </li>
+                <li class="nav__item hover:text-[#d67e34]">
+                  <a href="#"><span>О НАС</span></a>
+                </li>
+                <li class="nav__item hover:text-[#d67e34]">
+                  <a href="#"><span>БРОНЬ</span></a>
+                </li>
+              </ul>
+
+              <div
+                class="nav__cart py-[20px] pr-[21px] pl-[70px] border-r-[2px]"
+              >
+                <img
+                  class="cursor-pointer "
+                  src="./assets/icons/cart.svg"
+                  alt=""
+                />
+              </div>
+
+              <div class="flex">
+                <div class="pl-[31px] pr-[45px]">
+                  <div class="flex cursor-pointer">
+                    <img class="" src="./assets/icons/phone.svg" alt="" />
+                    <p>+999-888-76-54</p>
+                  </div>
+                  <p>
+                    Свяжитесь с нами для <br />
+                    бронирования
+                  </p>
+                </div>
+                <button
+                  class="bg-[#FF7400] py-[14px] px-[16px] text-[14px] h-[52px] hover:bg-[#0000] transition-all"
+                >
+                  ЗАКАЗ СТОЛИКА
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="pt-[154px] pb-[124px]">
+            <div class="">
+              <h2
+                class="text-[50px] font-[400] text-[#FF7400] pl-[20px] leading-[58px] hover:text-white"
+              >
+                Добро пожаловать в
+              </h2>
+              <h1 class="text-[80px] font-[400] text-[#FF7400] leading-[92px] hover:text-white">
+                Наш ресторан
+              </h1>
+              <div class="flex px-[96px] pt-[12px]">
+                <img src="./assets/icons/line.svg" alt="" />
+                <p class="text-[18px] hover:text-[#d67e34]">ДОМ ЛУЧШЕЙ ЕДЫ</p>
+                <img src="./assets/icons/line.svg" alt="" />
+              </div>
+              <div class="mx-[172px] pt-[21px]">
+                <button
+                  class="text-[14px] py-[14px] px-[27px] bg-[#FF7400] font-[700] hover:bg-[#0000] transition-all"
+                >
+                  VIEW MENU
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="flex gap-[31px]">
+            <div
+              class="text-center bg-white pt-[48px] pb-[15px] hover:shadow-2xl transition-all"
+            >
+              <img
+                class="px-[131px]"
+                src="./assets/icons/Mask Group.svg"
+                alt=""
+              />
+              <h2 class="text-[26px] font-[400]">
+                <span class="text-black"> Магическая</span>
+                <span class="text-[#bc9060]"> Атмосфера</span>
+              </h2>
+              <p class="text-[#656363] text-[26px] font-[400]">
+                В нашем заведении царит <br />
+                магическая атмосфера <br />
+                наполненная вкусными <br />
+                ароматами
+              </p>
+            </div>
+            <div
+              class="text-center bg-white pt-[48px] pb-[15px] hover:shadow-2xl transition-all"
+            >
+              <img
+                class="px-[131px]"
+                src="./assets/icons/Mask Group.svg"
+                alt=""
+              />
+              <h2 class="text-[26px] font-[400]">
+                <span class="text-black"> Лучшее качество</span>
+                <span class="text-[#bc9060]"> Еды</span>
+              </h2>
+              <p class="text-[#656363] text-[26px] font-[400]">
+                Качество нашей <br />
+                Еды - отменное!
+              </p>
+            </div>
+            <div
+              class="text-center bg-white pt-[48px] pb-[15px] hover:shadow-2xl transition-all"
+            >
+              <img
+                class="px-[131px]"
+                src="./assets/icons/Mask Group.svg"
+                alt=""
+              />
+              <h2 class="text-[26px] font-[400]">
+                <span class="text-black"> Недорогая</span>
+                <span class="text-[#bc9060]"> Еда</span>
+              </h2>
+              <p class="text-[#656363] text-[26px] font-[400]">
+                Стоимость нашей Еды <br />
+                зависит только от ее <br />
+                количества. Качество <br />
+                всегда на высоте!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="flex pt-[150px] justify-between pb-[122px]">
+            <div class="text-center">
+              <h2 class="text-black text-[54px] font-[400]">
+                <span class="text-black">Наша</span>
+                <span class="text-[#d67e34]">История</span>
+              </h2>
+              <p class="text-black pt-[21px] pb-[39px] hover:text-[#d67e34]">
+                Как и у любого другого самобытного места, у нас есть <br />
+                своя, особая история. Идея ресторана пришла <br />
+                основателям неожиданно. Во время прогулки по лесу <br />
+                создатель нашего ресторана застрял в сотнях <br />
+                километров от ближайшего населенного пункта. Вдали <br />
+                от цивилизации и связи им пришлось навремя <br />
+                br обустровать себе нехитрый быт, добывать и готовить себе
+                <br />
+                br еду.
+              </p>
+
+              <div class="flex justify-center gap-[35px]">
+                <div class="">
+                  <p class="text-[#bc9060] text-[40px] font-[400]">93</p>
+                  <p class="text-black text-[20px] font-[400] hover:text-[#d67e34]">Напитки</p>
+                </div>
+                <div class="">
+                  <p class="text-[#bc9060] text-[40px] font-[400]">206</p>
+                  <p class="text-black text-[20px] font-[400] hover:text-[#d67e34]">Еда</p>
+                </div>
+                <div class="">
+                  <p class="text-[#bc9060] text-[40px] font-[400]">71</p>
+                  <p class="text-black text-[20px] font-[400] hover:text-[#d67e34]">Закуски</p>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <img src="./assets/images/images.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="title">
+        <div class="container">
+          <div class="flex justify-between items-center">
+            <div class="pt-[80px] pb-[104px]">
+              <h2 class="text-[#d67e34] text-[52px] font-[400]  hover:text-white transition-all">
+                Отпразднуйте в одном из <br />
+                самых лучших ресторанов.
+              </h2>
+              <p class="text-[24px] font-[700] hover:text-[#d67e34]">
+                Только в этом месяце бизнес-ланч от 250 ₽
+              </p>
+            </div>
+            <div class="pl-[20px]">
+              <button
+                class="bg-[#FF7400] py-[14px] px-[18px] text-[14px] h-[52px]"
+              >
+                ЗАКАЗ СТОЛИКА
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="mb-[150px]">
+            <h2
+              class="text-[54px] font-[400] text-center mt-[132px] mb-[132px]"
+            >
+              <span class="text-black">Наши</span>
+              <span class="text-[#d67e34]">Блюда</span>
+            </h2>
+            <div class="flex items-center gap-[30px]">
+              <div class="">
+                <img class="hover:shadow-2xl transition-all" src="./assets/icons/Mask Group (1).svg" alt="" />
+              </div>
+              <div class="">
+                <div class="flex items-center gap-[30px]">
+                  <img class="hover:shadow-2xl transition-all" src="./assets/icons/Mask Group (2).svg" alt="" />
+                  <p class="text-black hover:text-[#d67e34]">
+                    Гамбургер мини -------------------------------- 220 ₽
+                  </p>
+                </div>
+                <div class="flex items-center py-[29px] gap-[30px]">
+                  <img class="hover:shadow-2xl transition-all" src="./assets/icons/Mask Group (2).svg" alt="" />
+                  <p class="text-black hover:text-[#d67e34] transition-all">
+                    Гамбургер мини -------------------------------- 220 ₽
+                  </p>
+                </div>
+                <div class="flex items-center gap-[30px]">
+                  <img class="hover:shadow-2xl transition-all" src="./assets/icons/Mask Group (2).svg" alt="" />
+                  <p class="text-black hover:text-[#d67e34] transition-all">
+                    Гамбургер мини -------------------------------- 220 ₽
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu">
+        <div class="container">
+          <div class="">
+            <h3 class="text-[54px] font-[400] text-center pt-[100px] leading-[62px] hover:text-black transition-all">Наше меню</h3>
+            <div class="flex justify-between pt-[300px]">
+              <div class="relative">
+                <div
+                  class="span bg-[#d67e34] w-[142px] absolute bottom-[490px] z-10"
+                >
+                  <p class="text-black pt-[7px] px-[11px] pb-[11px]">
+                    RECOMMENDED
+                  </p>
+                </div>
+                <div
+                  class="bg-white pt-[80px] px-[62px] pb-[29px] text-center relative"
+                >
+                  <img class="" src="./assets/icons/gamb.svg" alt="" />
+                  <h3 class="text-black text-[26px] font-[400] pt-[22px]">
+                    Гамбургер макси
+                  </h3>
+                  <p class="text-black pt-[17px] pb-[20px]">
+                    Максимально толстый <br />
+                    слой мяса
+                  </p>
+                  <button
+                    class="py-[14px] px-[67px] bg-[#d67e34] hover:shadow-2xl transition-all"
+                  >
+                    ЗАКАЗАТЬ
+                  </button>
+                  <div
+                    class="bg-[#d67e34] rounded-full size-[100px] text-center absolute top-[205px] left-[192px] border-[7px] border-white"
+                  >
+                    <p class="text-[30px] font-[400] pt-[15px]"><i>420</i></p>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <div
+                  class="bg-white pt-[80px] px-[62px] pb-[29px] text-center relative hover:shadow-slate-950 transition-all"
+                >
+                  <img src="./assets/icons/gamb.svg" alt="" />
+                  <h3 class="text-black text-[26px] font-[400] pt-[22px]">
+                    Гамбургер макси
+                  </h3>
+                  <p class="text-black pt-[17px] pb-[20px]">
+                    Максимально толстый <br />
+                    слой мяса
+                  </p>
+                  <button
+                    class="py-[14px] px-[67px] bg-[#d67e34] hover:shadow-2xl transition-all"
+                  >
+                    ЗАКАЗАТЬ
+                  </button>
+                  <div
+                    class="bg-[#d67e34] rounded-full size-[100px] text-center absolute top-[205px] left-[192px] border-[7px] border-white"
+                  >
+                    <p class="text-[30px] font-[400] pt-[15px]"><i>420</i></p>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <div
+                  class="bg-white pt-[80px] px-[62px] pb-[29px] text-center relative"
+                >
+                  <img src="./assets/icons/gamb.svg" alt="" />
+                  <h3 class="text-black text-[26px] font-[400] pt-[22px]">
+                    Гамбургер макси
+                  </h3>
+                  <p class="text-black pt-[17px] pb-[20px]">
+                    Максимально толстый <br />
+                    слой мяса
+                  </p>
+                  <button
+                    class="py-[14px] px-[67px] bg-[#d67e34] hover:shadow-2xl transition-all"
+                  >
+                    ЗАКАЗАТЬ
+                  </button>
+                  <div
+                    class="bg-[#d67e34] rounded-full size-[100px] text-center absolute top-[205px] left-[192px] border-[7px] border-white"
+                  >
+                    <p class="text-[30px] font-[400] pt-[15px]"><i>420</i></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-[#E5E5E5]">
+        <div class="container">
+          <div class="text-center py-[105px]">
+            <p class="text-black hover:text-[#d67e34] transition-all">
+              <i
+                >Я надолго запомню мой День рождения, проведённый в этом
+                ресторане! Кусочек родной <br />
+                Армении!!! Отдельное спасибо за комплепент в виде фруктовой
+                тарелки. Будем <br />
+                рекомендовать этот ресторан своим друзьям и родственникам также
+                за рубежом, <br />
+                путешествующих в Санкт-Петербург!!!</i
+              >
+            </p>
+            <div class="pl-[510px] py-[30px]">
+              <img src="./assets/icons/men-img.svg" alt="" />
+            </div>
+            <h4 class="text-[20px] font-[600] text-black">Посетитель</h4>
+            <h5 class="text-[20px] font-[400] text-black pt-[9px] pb-[25px]">
+              Николай
+            </h5>
+            <div class="flex justify-center gap-[3px]">
+              <img src="./assets/icons/round.svg" alt="" />
+              <img src="./assets/icons/round.svg" alt="" />
+              <img src="./assets/icons/circle.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="relative">
+        <div class="container">
+            <div class=" ">
+                <h3 class="text-[54px] font-[400] pt-[101px] pb-[60px] text-center">
+                    <span class="text-black">Галерея</span>
+                    <span class="text-[#d67e34]"> Блюд</span>
+                </h3>
+                <div class="flex gap-[30px]">
+                    <img class="hover:shadow-2xl transition-all" src="./assets/images/Mask Group.png" alt="">
+                    <img class="hover:shadow-2xl transition-all" src="./assets/images/Mask Group (1).png" alt="">
+                    <img class="hover:shadow-2xl transition-all" src="./assets/images/Mask Group (2).png" alt="">
+                </div>
+                <div class="flex gap-[30px] pt-[30px]">
+                    <img class="hover:shadow-2xl transition-all" src="./assets/images/Mask Group (1).png" alt="">
+                    <img class="hover:shadow-2xl transition-all" src="./assets/images/Mask Group (2).png" alt="">
+                    <img class="hover:shadow-2xl transition-all" src="./assets/images/Mask Group.png" alt="">
+
+                </div>
+                <img class="absolute right-0 top-[240px]" src="./assets/icons/Rectangle 10.svg" alt="">
+                <img class="absolute left-0 top-[240px]" src="./assets/icons/Rectangle 10.svg" alt="">
+            </div>
+        </div>
+      </section>
+      <section class="">
+        <div class="container">
+            <div class="">
+                <h3 class="text-[54px] font-[400] pt-[100px] pb-[107px] text-center">
+                    <span class="text-black">Наши </span>
+                    <span class="text-[#d67e34]"> Повара</span>
+                </h3>
+                <div class="flex gap-[31px]">
+                    <img class="hover:shadow-2xl transition-all" src="./assets/images/Mask Group (3).png" alt="">
+                    <img class="hover:shadow-2xl transition-all" src="./assets/images/Mask Group (4).png" alt="">
+                    <img class="hover:shadow-2xl transition-all" src="./assets/images/image 4.png" alt="">
+                </div>
+                <div class="flex pl-[548px] pt-[50px] pb-[43px]">
+                    <img src="./assets/icons/circle.svg" alt="">
+                    <img src="./assets/icons/round.svg" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="">
+        <div class="container">
+            <img class="" src="./assets/images/RESERVATION.png" alt="">
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

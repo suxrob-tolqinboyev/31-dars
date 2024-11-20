@@ -1,0 +1,20 @@
+body {
+  background: url("../assets/images/bg.png");
+  height: 200vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title{
+    background: url("../assets/icons/bg-img.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 357px;
+}
+
+.menu{
+    background: url("../assets/icons/Mask Group (3).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1036px;
+}
